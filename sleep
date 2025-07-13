@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页标题</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .image-container {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            background-color: #fff;
+        }
+        .description {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 高频词柱状图 -->
+        <div class="image-container">
+            <img src="images/高频词柱状图.png" alt="高频词柱状图">
+            <p class="description">高频词柱状图</p>
+        </div>
+
+        <!-- 词云图 -->
+        <div class="image-container">
+            <img src="images/词云图.png" alt="词云图">
+            <p class="description">词云图</p>
+        </div>
+
+        <!-- 情感分析饼图 -->
+        <div class="image-container">
+            <img src="images/情感分析饼图.png" alt="情感分析饼图">
+            <p class="description">情感分析饼图</p>
+        </div>
+    </div>
+</body>
+</html>
